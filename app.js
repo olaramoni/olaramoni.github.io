@@ -21,7 +21,7 @@ function convertToWord(letter){
   if (letter === "p") return "Paper";
   if (letter === "s") return "Scissors";
   if (letter === "l") return "Lizard";
-  if (letter === "sp") return "Spock"
+  if (letter === "sp") return "Spock";
 }
 
 function win(user, computer){
