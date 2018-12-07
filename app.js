@@ -102,7 +102,7 @@ function main() {
 
   lizard_div.addEventListener("click", function() {
     game("l");
-  }
+  })
 }
 
 main();
