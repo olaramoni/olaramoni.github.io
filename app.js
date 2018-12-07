@@ -77,7 +77,7 @@ function game(userChoice) {
     case "pp":
     case "ss":
     case "ll":
-    case "spsp"
+    case "spsp":
       draw(userChoice, computerChoice);
       break;
   }
