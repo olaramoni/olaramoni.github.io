@@ -39,7 +39,7 @@ function lose(user, computer){
   compScore_span.innerHTML = compScore
   const smallUserWord = "user".fontsize(3).sub();
   const smallCompWord = "comp".fontsize(3).sub();
-  result_p.innerHTML = `${convertToWord(user)}${smallUserWord} loses ${convertToWord(computer)}${smallCompWord}. You lose💩💩💩`
+  result_p.innerHTML = `${convertToWord(user)}${smallUserWord} loses to ${convertToWord(computer)}${smallCompWord}. You lose💩💩💩`
 }
 
 function draw(user, computer){
