@@ -87,6 +87,16 @@ header > h1 {
 .choice:hover {
   cursor: pointer;
   background: #59188f;
+  font-size: 100%;
+  animation-name: pulse;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes head {
+    0% {size:100%; opacity:1;}
+    50% {size:120%; opacity:1;}
+    100% {size:100%;opacity:1;}
 }
 
 #action-message {

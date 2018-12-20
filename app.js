@@ -10,7 +10,7 @@ const scissors_div = document.getElementById("s");
 const lizard_div = document.getElementById("l");
 const spock_div = document.getElementById("sp")
 
-function getComputerChoice(){
+function getComputersChoice(){
   const choices = ["r","p","s","l","sp"];
   const randomNumber = Math.floor(Math.random() * 5);
   return choices[randomNumber];
@@ -47,7 +47,7 @@ function draw(user, computer){
 }
 
 function game(userChoice) {
-  const computerChoice=getComputerChoice();
+  const computerChoice=getComputersChoice();
   switch(userChoice + computerChoice) {
     case "rs":
     case "rl":
